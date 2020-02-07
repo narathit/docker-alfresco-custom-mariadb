@@ -4,5 +4,5 @@
 
 ```
 mvn clean install
-docker build . --tag my-acs-repo-mariadb:6.0
+docker build -t my-acs-repo-mariadb .
 ```
