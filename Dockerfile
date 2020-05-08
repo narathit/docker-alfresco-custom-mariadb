@@ -1,4 +1,4 @@
-FROM alfresco/alfresco-content-repository-community:6.2.0-ga
+FROM alfresco/alfresco-content-repository-community:6.0.7-ga
 
 # RUN echo -e '\n\
 # index.recovery.mode=AUTO\n\
