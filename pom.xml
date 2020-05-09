@@ -37,6 +37,13 @@
                                   <overWrite>false</overWrite>
                                   <outputDirectory>${project.build.directory}/libs</outputDirectory>
                                </artifactItem>
+                               <artifactItem>
+                                <groupId>mysql</groupId>
+                                <artifactId>mysql-connector-java</artifactId>
+                                <version>5.1.32</version>
+                                <overWrite>false</overWrite>
+                                <outputDirectory>${project.build.directory}/libs</outputDirectory>
+                               </artifactItem>
                           </artifactItems>
                       </configuration>
                   </execution>
