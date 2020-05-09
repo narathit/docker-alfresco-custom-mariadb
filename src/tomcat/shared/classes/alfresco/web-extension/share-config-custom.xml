@@ -2,7 +2,7 @@
    <!-- Disable the CSRF Token Filter -->
    <config evaluator="string-compare" condition="CSRFPolicy" replace="true">
       <filter>
-         <rule>
+         <!-- <rule>
             <request>
                <method>POST</method>
                <path>/page/trusted/call/1|/page/trusted/call/2</path>
@@ -15,7 +15,7 @@
                <param name="always">false</param>
                <param name="origin">http://172.17.62.29</param>
             </action>
-         </rule>
+         </rule> -->
       </filter>
    </config>
 </alfresco-config>
