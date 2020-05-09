@@ -13,3 +13,4 @@ FROM alfresco/alfresco-content-repository-community:6.0.7-ga
 ARG TOMCAT_LIB_DIR=/usr/local/tomcat/lib
 
 COPY target/libs $TOMCAT_LIB_DIR
+COPY src/tomcat/shared/classes/alfresco/web-extension  /usr/local/tomcat/shared/classes/alfresco/web-extension
